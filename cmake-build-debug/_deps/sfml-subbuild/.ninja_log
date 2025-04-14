@@ -1,0 +1,21 @@
+# ninja log v6
+1	5	1744505261481411417	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	2323b7d8b4a69eb7
+1	5	1744505261481411417	/home/archie/Documents/repositories/fractal-viewer/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-mkdir	2323b7d8b4a69eb7
+0	47318	1744590868758418343	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	2b213e078a6bb75d
+0	47318	1744590868758418343	/home/archie/Documents/repositories/fractal-viewer/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-download	2b213e078a6bb75d
+47318	47779	1744590868758418343	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	79d0dd6d01385cb9
+47318	47779	1744590868758418343	/home/archie/Documents/repositories/fractal-viewer/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-update	79d0dd6d01385cb9
+47779	47782	1744590869222198115	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	32fd186bb9f5457
+47779	47782	1744590869222198115	/home/archie/Documents/repositories/fractal-viewer/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-patch	32fd186bb9f5457
+47782	47785	1744590869225198110	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	f7926df52cb6132f
+47782	47785	1744590869225198110	/home/archie/Documents/repositories/fractal-viewer/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-configure	f7926df52cb6132f
+47785	47788	1744590869227198108	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	e4334e05172702bd
+47785	47788	1744590869227198108	/home/archie/Documents/repositories/fractal-viewer/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-build	e4334e05172702bd
+47788	47790	1744590869230198103	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	41bae5296c096e08
+47788	47790	1744590869230198103	/home/archie/Documents/repositories/fractal-viewer/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-install	41bae5296c096e08
+47790	47793	1744590869233198098	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	767c3b5594d91f48
+47790	47793	1744590869233198098	/home/archie/Documents/repositories/fractal-viewer/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-test	767c3b5594d91f48
+47793	47796	1744590869236198093	CMakeFiles/sfml-populate-complete	7798faf765d2e742
+47793	47796	1744590869236198093	sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	7798faf765d2e742
+47793	47796	1744590869236198093	/home/archie/Documents/repositories/fractal-viewer/cmake-build-debug/_deps/sfml-subbuild/CMakeFiles/sfml-populate-complete	7798faf765d2e742
+47793	47796	1744590869236198093	/home/archie/Documents/repositories/fractal-viewer/cmake-build-debug/_deps/sfml-subbuild/sfml-populate-prefix/src/sfml-populate-stamp/sfml-populate-done	7798faf765d2e742
