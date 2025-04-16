@@ -1,6 +1,6 @@
 build
 out
-bin
+cmake-build-debug/bin/
 .cache
 .idea
 .vs
