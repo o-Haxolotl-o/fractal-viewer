@@ -1,0 +1,4 @@
+1. Allow ability to move regardless of how zoomed in
+2. Infinite zoom
+3. GUI parameter adjustment
+4. Add more fractals

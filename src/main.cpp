@@ -11,7 +11,8 @@ int main()
     float xOffset = 1920/2;
     float yOffset = 1080/2;
 
-    sf::Vector2<int> previousMousePosition;
+    constexpr int palette = 0;
+    constexpr int colorScaler = 40;
 
     //init fractal shader
     sf::Shader fractalShader;
@@ -31,25 +32,31 @@ int main()
                 window.close();
             }
             if (const auto* mouseWheelScrolled = event->getIf<sf::Event::MouseWheelScrolled>()) {
-                zoom += mouseWheelScrolled->delta * zoom / 2;
+                if(mouseWheelScrolled->delta>0)
+                    zoom += mouseWheelScrolled->delta * (zoom );
+                else
+                    zoom += mouseWheelScrolled->delta * (zoom )/2;
 
             }
 
-            if( const auto* mouseMovedRaw = event->getIf<sf::Event::MouseMovedRaw>()) {
+            if(const auto* mouseMovedRaw = event->getIf<sf::Event::MouseMovedRaw>()) {
                 if(sf::Mouse::isButtonPressed(sf::Mouse::Button::Left)) {
-                    xOffset += std::floor(mouseMovedRaw->delta.x)*2;
-                    yOffset -= std::floor(mouseMovedRaw->delta.y)*2;
+                    xOffset -= mouseMovedRaw->delta.x/zoom;
+                    yOffset += mouseMovedRaw->delta.y/zoom;
                 }
             }
 
         }
         if(zoom < 200)
             zoom = 200;
-
-
+        
         fractalShader.setUniform("zoom", zoom);
         fractalShader.setUniform("xOffset", xOffset);
         fractalShader.setUniform("yOffset", yOffset);
+
+        fractalShader.setUniform("palette", palette);
+        fractalShader.setUniform("colorScaler", colorScaler);
+
         window.clear();
         window.draw(fractalSprite, &fractalShader);
         window.display();
